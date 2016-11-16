@@ -1,0 +1,17 @@
+---
+- provider_name: Tumblr
+  provider_url: https://www.tumblr.com
+  endpoints:
+  - schemes:
+    - https://*.tumblr.com/post/*
+    - http://*.tumblr.com/post/*
+    - https://*.tumblr.com/post/*/*
+    - http://*.tumblr.com/post/*/*
+    url: https://www.tumblr.com/oembed/1.0
+    docs_url: https://www.tumblr.com/docs/en/embeddable_posts
+    example_urls:
+    - https://www.tumblr.com/oembed/1.0?url=https%3A%2F%2Fstaff.tumblr.com%2Fpost%2F152747019195%2Fdeploying-friend
+    discovery: true
+    formats:
+    - json
+...
